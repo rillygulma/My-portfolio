@@ -38,30 +38,27 @@ function Education() {
     <div>
     <div className='py-12 font-titleFont flex flex-col gap-4'>
     <p className='text-sm text-designColor tracking-[4px]'>2016 - 2023</p>
-    <h2 className='text-4xl font-bold'>Job Experience</h2>
+    <h2 className='text-4xl font-bold'>Additional Skills & Certifications</h2>
   </div>
   <div className=' mt-14 w-full h-[1000px] border-l-[6px] border-1-black
   border-opacity-30 flex flex-col gap-10'>
     <ResumeCard
-      title="System Analyst"
-      subTitle="Federal University Birnin Kebbi (2016 - Present)"
-      result="Staff"
-      des="I am a systems analyst in Federal University Birnin Kebbi, An IT professional who works on a high level in an organization to ensure that systems,
-       infrastructures and computer systems are functioning as effectively and efficiently as possible."
+      title="Front-end Developer"
+      subTitle="HNG Tech (June 2024 - August 2024)"
+      result="HNG 11 Internship"
+      des="Is a fast-paced, immersive program designed to equip participants with practical experience in building modern web applications. Interns collaborate with cross-functional teams to develop responsive user interfaces using HTML, CSS, JavaScript, and frameworks like React.js. The role focuses on translating design concepts into functional components, optimizing performance, and ensuring a seamless user experience. This hands-on internship provides valuable exposure to real-world projects, teamwork, and industry best practices, preparing developers for professional frontend roles in a dynamic and competitive environment."
     />
     <ResumeCard 
-      title="Front-end Developer"
-      subTitle="(2020 - Present)"
-      result="Self"
-      des="A front-end developer architects and develops websites and applications using web technologies 
-      (i.e., HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation input for non-web platform 
-      environments (i.e., React Native)."
+      title="Basics Of JavaScript Programming"
+      subTitle="(21-June-2023)"
+      result="OpenWeaver"
+      des="Is a foundational course designed to introduce learners to the core concepts and syntax of JavaScript, the language of the web. This course covers essential topics such as variables, data types, functions, loops, conditionals, and DOM manipulation. By the end of the course, participants will have a solid understanding of JavaScript fundamentals and be able to build interactive and dynamic web applications. It’s an ideal starting point for aspiring web developers."
     />
     <ResumeCard
-      title="Web Developer & Trainer"
-      subTitle="Gulma Tech Institute (2021 - 2022)"
-      result="Tutor"
-      des="Taught Web development course such as HTML, CSS, JavaScript."
+      title="Beginner and Advanced Google Analytics"
+      subTitle="(27-May-2023)"
+      result="Google Analytics Academy"
+      des="Is a comprehensive course designed to help learners understand and leverage Google Analytics to measure and optimize website performance. The beginner section introduces foundational concepts, including setting up Google Analytics, understanding key metrics, navigating reports, and tracking user behavior. The advanced section dives deeper into configuring custom reports, goal tracking, event tagging, and utilizing advanced analysis techniques to gain actionable insights. This course is ideal for marketers, analysts, and business owners seeking to make data-driven decisions to enhance their digital strategies."
     />
     </div>
     </div>

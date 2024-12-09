@@ -28,8 +28,8 @@ const Experience = () => {
             assist other team members and leadership in making sound decisions."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Self - (2020 - Present)"
+            title="Imtern Front-end Developer"
+            subTitle="Self - (June 2024 - August 2024)"
             result="Nigeria"
             des="A front-end web developer is responsible for implementing visual elements that users see and interact with in a web application. They are usually supported by
              back-end web developers, who are responsible for server-side application logic and integration of the work front-end developers do."
