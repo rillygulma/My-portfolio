@@ -45,7 +45,7 @@ function Navbar() {
             className="text-lg cursor-pointer hover:text-designColor duration-300"
             onClick={handleMenuToggle}
           >
-            ☰
+            {isMobileMenuOpen ? 'Close' : '☰'}
           </span>
         </div>
 
