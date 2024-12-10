@@ -5,54 +5,56 @@ import ResumeCard from "./ResumeCard";
 function Achievement() {
   return (
     <motion.div
-    initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}}
-    className="py-12 font-titleFont flex gap-20">
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="w-full flex flex-col md:flex-row gap-12 md:gap-20"
+    >
+      {/* Professional Certifications Section */}
+      <div className="w-full md:w-1/2">
+        <div className="py-8 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Professional Certifications</h2>
+          <h2 className="text-2xl md:text-4xl font-bold">Professional Certifications</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-8 md:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 md:gap-10">
           <ResumeCard
             title="OpenWeaver"
             subTitle="Certificate of Participation"
             result="Success"
-            des="Has Successfuly Complete of JavaScript Programming Training"
-            
+            des="Successfully completed JavaScript Programming Training."
           />
           <ResumeCard
             title="Google Analytics Academy"
             subTitle="Certificate of Course Completion"
             result="Success"
-            des="Advanced Google Analytics"
+            des="Advanced Google Analytics."
           />
           <ResumeCard
-            title="Data Privacy and Creating a secure Cyber space"
+            title="Data Privacy and Creating a Secure Cyberspace"
             subTitle="Certificate of Commitment"
             result="Success"
-            des="By Cyber Security Center of Excellence, Department of Information Technology and Electronics. Government of  West Bengal"
+            des="By Cyber Security Center of Excellence, Department of Information Technology and Electronics, Government of West Bengal."
           />
         </div>
       </div>
-      <div>
-        <div className="py-12 font-titleFont flex flex-col gap-4">
+
+      {/* Job Experience Section */}
+      <div className="w-full md:w-1/2">
+        <div className="py-8 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <h2 className="text-2xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-8 md:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-8 md:gap-10">
           <ResumeCard
             title="National Youth Service Corps"
-            subTitle="Data Analyst At Rima Radio Sokoto"
+            subTitle="Data Analyst at Rima Radio Sokoto"
             result="Success"
-            des="The National Youth Service Corps is a program set up by the Nigerian government during the military regime 
-                 to involve Nigerian graduates in nation-building and the development of the country."
+            des="The National Youth Service Corps is a program set up by the Nigerian government to involve Nigerian graduates in nation-building and development."
           />
           <ResumeCard
             title="Invention Link"
             subTitle="Computer Operator"
             result="Success"
-            des="A computer operator is a role in IT which oversees the running of computer systems, 
-                 ensuring that the machines, and computers are running properly."
+            des="Oversaw the running of computer systems, ensuring machines and computers were operating properly."
           />
           <ResumeCard
             title="Lorem ipsum dolor sit amet."
@@ -64,6 +66,6 @@ function Achievement() {
       </div>
     </motion.div>
   );
-};
+}
 
 export default Achievement;
